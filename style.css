@@ -6,7 +6,7 @@
 }
 body
 {
-    background-color: #130c51;
+    background-color: #0c063c;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,22 +20,69 @@ body
     padding: 30px;
     margin: 40px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(99, 115, 220, 0.826);
-    border: 4px solid #46c6f8;
+    box-shadow: 0 0 10px rgba(79, 93, 185, 0.826);
+    border: 3px solid #4667f8;
 }
 .instituteName
 {
     text-align: center;
     font-size: 30px;
-    font-weight: 100;
-    color: #0a3d90;
+    font-weight: bold;
+    color: #072d69;
     font-family: sans-serif;
+    text-indent: 2px;
+    
 }
 .motto
 {
     text-align: center;
-    font-size: 15px;
+    font-size: 11px;
+    word-spacing: 2px;;
     font-family: sans-serif;
     font-weight: 100;
-    color: #a3a5aa;
+    color: gray;
+    text-wrap-style: stable;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.reportTitle
+{
+    color: rgb(80, 94, 213);
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.year
+{
+    text-align: center;
+    font-family: sans-serif;
+    color: gray;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+.blueLine
+{
+    border: 0.5px solid rgb(129, 200, 255);
+    width: flex;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.studentInfo
+{
+    background-color: #cadfff;
+    border-left-color: #0c063c;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.blueline
+{
+    border: 0.5px solid rgb(129, 200, 255);
+    width: flex;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
