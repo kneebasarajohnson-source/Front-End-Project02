@@ -71,12 +71,15 @@ body
 }
 .studentInfo
 {
-    background-color: #cadfff;
-    border-left-color: #0c063c;
-    font-family: sans-serif;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #DBEAFE;
+    color: #123C69;
+    font-size: 15px;
     font-weight: bold;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    font-family: sans-serif;
+    border-left: 4px solid #2563EB;
 }
 .blueline
 {
@@ -85,4 +88,14 @@ body
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+.studentDetails
+{
+    font-family: sans-serif;
+}
+.label
+{
+    font-weight: bold;
+    color: #0c063c;
+    padding: 5px 10px;
 }
